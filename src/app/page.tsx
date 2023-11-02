@@ -32,7 +32,7 @@ export default function Home() {
       <br/>
       <h1 className="text-5xl font-semibold">Hi👋</h1>
       <br/>
-      <p className="text-2xl font-semibold">About Me</p>
+      <p className="text-2xl font-semibold mb-1">About Me</p>
       <Card>
         <CardContent className={cn("p-6")}>
           <div>
@@ -44,7 +44,7 @@ export default function Home() {
         </CardContent>
       </Card>
       <br/>
-      <p className="text-2xl font-semibold">My Experience</p>
+      <p className="text-2xl font-semibold mb-1">My Experience</p>
       <div className="grid grid-rows-2 grid-flow-col gap-4">
         <a href="https://relatio.cc"><Card>
           <CardContent className={cn("p-6")}>
@@ -88,7 +88,7 @@ export default function Home() {
         </Card></a>
       </div>
       <br/>
-      <p className="text-2xl font-semibold">Contact Me</p>
+      <p className="text-2xl font-semibold mb-1">Contact Me</p>
       <Card>
         <CardContent className={cn("p-6")}>
           <p>Give me an email to <span className="font-semibold">me@maxhenson.co.uk</span> or click the button below.
@@ -102,7 +102,7 @@ export default function Home() {
         </CardContent>
       </Card>
       <br/>
-      <p className="text-2xl font-semibold">Find me on Discord</p>
+      <p className="text-2xl font-semibold mb-1">Find me on Discord</p>
       <Card>
         <CardContent className={cn("p-6")}>
           <div className="flex flex-row gap-4 items-center">
