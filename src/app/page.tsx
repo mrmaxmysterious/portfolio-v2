@@ -47,7 +47,7 @@ export default function Home() {
       </Card>
       <br/>
       <p className="text-2xl font-semibold mb-1">My Experience</p>
-      <div className="grid grid-rows-2 grid-flow-col gap-4">
+      <div className="grid md:grid-rows-2 grid-rows-4 grid-flow-col gap-4">
         <a href="https://relatio.cc"><Card>
           <CardContent className={cn("p-6")}>
             <div>
