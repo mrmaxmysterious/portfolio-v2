@@ -68,7 +68,7 @@ export default function Home() {
             </div>
           </CardContent>
         </Card></a>
-        <a href="https://relatio.cc"><Card>
+        <a href="https://maxhenson.co.uk"><Card>
           <CardContent className={cn("p-6")}>
             <div>
               <p className="font-semibold text-xl pb-1">Airbridge Group</p>
