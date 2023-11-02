@@ -32,6 +32,8 @@ export default function Home() {
       <br/>
       <h1 className="text-5xl font-semibold">Hi👋</h1>
       <br/>
+      <hr/>
+      <br/>
       <p className="text-2xl font-semibold mb-1">About Me</p>
       <Card>
         <CardContent className={cn("p-6")}>
