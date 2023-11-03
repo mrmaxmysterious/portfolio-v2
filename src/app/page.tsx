@@ -119,7 +119,7 @@ export default function Home() {
                 {!loading ? <div className={cn("w-2 h-2 rounded-full", status?.discord_status === "online" && "bg-green-500", status?.discord_status === "dnd" && "bg-red-500", status?.discord_status === "idle" && "bg-yellow-500", status?.discord_status === "offline" && "bg-gray-500")}></div> : <div className="w-2 h-2 rounded-full bg-gray-500"></div>}
                 <h2 className="font-semibold">maxhenson</h2>
               </div>
-              {!loading ? <div>{status?.spotify ? (<p>Currently Listening to <span className="font-semibold">{status.spotify.song}</span> by <span className="font-semibold">{status.spotify.artist}</span></p>) : (<p>{status?.activities[0].id === "custom" ? status.activities[0].state : status?.activities[0].name + ": " + status?.activities[0].state}</p>)}</div> : <p>gimme a sec...</p>}
+              {!loading && status?.discord_status !== "offline" ? <div>{status?.spotify ? (<p>Currently Listening to <span className="font-semibold">{status.spotify.song}</span> by <span className="font-semibold">{status.spotify.artist}</span></p>) : (<p>{status?.activities[0].id === "custom" ? status.activities[0].state : status?.activities[0].name + ": " + status?.activities[0].state}</p>)}</div> : <p></p>}
             </div>
           </div>
         </CardContent>
