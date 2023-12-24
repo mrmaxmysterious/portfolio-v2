@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 let isChristmas = false
 const month = new Date().getMonth()
-if (month == 12) isChristmas = true
+if (month == 11) isChristmas = true
 
 export default function RootLayout({
   children,
