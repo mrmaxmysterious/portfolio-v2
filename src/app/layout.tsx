@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Max Henson',
 }
 
-isChristmas = false
+let isChristmas = false
 const month = new Date().getMonth()
 if (month == 12) isChristmas = true
 
