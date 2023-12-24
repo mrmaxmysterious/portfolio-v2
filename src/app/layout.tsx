@@ -22,7 +22,7 @@ export default function RootLayout({
       <head>
         {isChristmas ? <script src="https://app.embed.im/snow.js" defer></script> : <p></p>}
       </head>
-      <body className={inter.className + " dark"}><div className="mx-auto max-w-3xl px-5">{children}</div></body>
+      <body className={inter.className + " dark"} id={isChristmas}><div className="mx-auto max-w-3xl px-5">{children}</div></body>
     </>
   )
 }
