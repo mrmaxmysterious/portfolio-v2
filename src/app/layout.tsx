@@ -15,6 +15,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <script src="https://app.embed.im/snow.js" defer></script>
+      </head>
       <body className={inter.className + " dark"}><div className="mx-auto max-w-3xl px-5">{children}</div></body>
     </html>
   )
