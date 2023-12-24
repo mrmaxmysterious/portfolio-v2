@@ -27,10 +27,13 @@ export default function Home() {
     window.location.href = "mailto:me@maxhenson.co.uk"
   }
 
+  let isChristmas = false
+  if (new Date().getMonth() === 11) isChristmas = true
+
   return (
     <>
       <br/>
-      <h1 className="text-5xl font-semibold">Hi👋</h1>
+      <h1 className="text-5xl font-semibold">{isChristmas ? 🎄 Merry Christmas! : Hi👋</h1>
       <br/>
       <hr/>
       <br/>
