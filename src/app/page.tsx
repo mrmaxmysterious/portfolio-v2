@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <>
       <br/>
-      <h1 className="text-5xl font-semibold">{isChristmas ? 🎄 Merry Christmas! : Hi👋}</h1>
+      {isChristmas ? <h1 className="text-5xl font-semibold">🎄 Merry Christmas!</h1> : <h1 className="text-5xl font-semibold">Hi👋</h1>}
       <br/>
       <hr/>
       <br/>
