@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/avatar"
 import { cn } from '@/lib/utils'
 import { Button } from "@/components/ui/button"
+import { useState, useEffect } from "react"
 
 export default function Home() {
   const { loading, status } = useLanyard({
