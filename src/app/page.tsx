@@ -16,19 +16,23 @@ import {
 } from "@/components/ui/avatar"
 import { cn } from '@/lib/utils'
 import { Button } from "@/components/ui/button"
+import { useState, useEffect } from "react"
 
 export default function Home() {
   const { loading, status } = useLanyard({
     userId: "728318691716104222",
     socket: true,
   });
+  const [isChristmas, setIsChristmas] = useState(false)
+
+  useEffect(() => {
+    const month = new Date().getMonth()
+    if(month === 11) setIsChristmas(true)
+  }, [])
 
   function emailMe() {
     window.location.href = "mailto:me@maxhenson.co.uk"
   }
-
-  let isChristmas = false
-  if (new Date().getMonth() === 11) isChristmas = true
 
   return (
     <>
