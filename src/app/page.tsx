@@ -85,13 +85,13 @@ export default function Home() {
             </div>
           </CardContent>
         </Card></a>
-        <a href="https://radiowiki.net"><Card>
+        <a href="https://mixupfm.net"><Card>
           <CardContent className={cn("p-6")}>
             <div>
-              <p className="font-semibold text-xl pb-1">RadioWiki</p>
+              <p className="font-semibold text-xl pb-1">MixUpFM</p>
               <hr/>
-              <p className="pt-1 pb-1">Developer</p>
-              <p className='text-xs text-gray-400'>January 2023 - Present</p>
+              <p className="pt-1 pb-1">Systems Administrator</p>
+              <p className='text-xs text-gray-400'>January 2025 - Present</p>
             </div>
           </CardContent>
         </Card></a>
